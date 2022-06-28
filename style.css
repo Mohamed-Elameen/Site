@@ -7,6 +7,7 @@
 }
 .intro{
     background-color:aliceblue ;
+    background-size: cover;
 }
  .footer{
     background-color:cornflowerblue;
@@ -55,4 +56,5 @@ h1{
 }
 .services{
     background-color:aliceblue ;
+    background-size: cover;
 }
