@@ -1,4 +1,4 @@
-nav{
+.nav{
     background-color:cornflowerblue;
     padding-top: 60px;
     padding-left: 600px;
@@ -11,7 +11,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
 }
- footer{
+ .footer{
     background-color:cornflowerblue;
     text-align: center;
 }
