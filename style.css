@@ -17,7 +17,7 @@
     font-family: cursive;
     color: cornflowerblue;
 }
-a{
+.nav a{
     background-color: aliceblue;
     padding: 20px;
     margin-left: 25px;
@@ -28,6 +28,10 @@ a:hover{
     font-size: large;
     font-style: oblique ;
     color: black;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
 }
 h1,h2,h3{
     text-align: center ;
@@ -66,7 +70,6 @@ h1{
     font-size: xx-large;
 }
 .services{
-    /* background-color:aliceblue ; */
     background-size: cover;
 }
 .center{
@@ -77,4 +80,74 @@ h1{
 hr{
     border-top: 7px dotted cornflowerblue;
     width: 35px;
+}
+fieldset{
+    text-align: center;
+    width: 50%;
+    border-color: aliceblue;
+    border-color:darkgray;
+    border-radius: 10px;
+    margin-left: 320px;
+}
+label{
+    padding-left: 30px;
+    font-family: cursive;
+    color: cornflowerblue;
+}
+legend{
+    text-align: center;
+    font-family: cursive;
+    color: cornflowerblue;
+}
+#email {
+    padding-right: 37px;
+}
+.textarea{
+    width: 300px;
+    height: 150px;
+    margin-left: 30px;
+    border-color:darkgray;
+    border-radius: 10px;
+}
+abbr{
+    text-decoration: none;
+}
+.submit{
+    margin-left:500px ;
+    background-color: aliceblue;
+    color: cornflowerblue;
+    font-size: 15px;
+    padding: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    border-color:darkgray;
+    border-radius: 10px;
+}
+input{
+    border-color:darkgray;
+    border-radius: 10px;
+}
+.contactinfo fieldset{
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactinfo {
+    text-align: center;
+}
+.contactinfo th{
+    padding: 40px;
+}
+.contactinfo ul{
+    list-style: none;
+}
+.contactinfo fieldset{
+    border: none;
+}
+.contactinfo legend{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bolder;
+    color: cornflowerblue;
 }
