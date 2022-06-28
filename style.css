@@ -7,9 +7,6 @@
 }
 .intro{
     background-color:aliceblue ;
-    background-image: url('img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
  .footer{
     background-color:cornflowerblue;
@@ -58,7 +55,4 @@ h1{
 }
 .services{
     background-color:aliceblue ;
-    background-image: url('img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
