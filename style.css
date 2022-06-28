@@ -1,14 +1,17 @@
-.topnavbar{
+nav{
     background-color:cornflowerblue;
     padding-top: 60px;
     padding-left: 600px;
     padding-right: 40px;
     padding-bottom: 30px;
 }
-.middle{
+.intro{
     background-color:aliceblue ;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.footer{
+ footer{
     background-color:cornflowerblue;
     text-align: center;
 }
@@ -52,4 +55,10 @@ table{
 }
 h1{
     font-size: xx-large;
+}
+.services{
+    background-color:aliceblue ;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
