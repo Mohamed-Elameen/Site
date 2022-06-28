@@ -1,26 +1,33 @@
 .nav{
-    background-color:cornflowerblue;
+    background-color:aliceblue ;
     padding-top: 60px;
     padding-left: 600px;
     padding-right: 40px;
     padding-bottom: 30px;
+    font-family: cursive;
+    color: cornflowerblue;
 }
 .intro{
-    background-color:aliceblue ;
+    /* background-color:aliceblue ; */
     background-size: cover;
 }
  .footer{
-    background-color:cornflowerblue;
+    background-color:aliceblue ;
     text-align: center;
+    font-family: cursive;
+    color: cornflowerblue;
 }
 a{
-    background-color:aliceblue ;
+    background-color: aliceblue;
     padding: 20px;
     margin-left: 25px;
     border-radius: 20px;
     text-decoration: none;
+}
+a:hover{
     font-size: large;
-    color:black;
+    font-style: oblique ;
+    color: black;
 }
 h1,h2,h3{
     text-align: center ;
@@ -42,6 +49,10 @@ th{
     text-align: center;
     color: cornflowerblue;
 }
+th:hover{
+    font-size: xx-large;
+    font-style: oblique;
+}
 td{
     text-align: center;
     padding-left: 10px;
@@ -55,6 +66,15 @@ h1{
     font-size: xx-large;
 }
 .services{
-    background-color:aliceblue ;
+    /* background-color:aliceblue ; */
     background-size: cover;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    border-top: 7px dotted cornflowerblue;
+    width: 35px;
 }
