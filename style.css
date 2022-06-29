@@ -8,7 +8,6 @@
     color: cornflowerblue;
 }
 .intro{
-    /* background-color:aliceblue ; */
     background-size: cover;
 }
  .footer{
@@ -123,6 +122,19 @@ abbr{
     border-color:darkgray;
     border-radius: 10px;
 }
+.button {
+    background-color: aliceblue;
+    color: cornflowerblue;
+    font-size: 20px;
+    padding: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    border-color:darkgray;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 55%;
+}
 input{
     border-color:darkgray;
     border-radius: 10px;
@@ -150,4 +162,24 @@ input{
     font-family: cursive;
     font-weight: bolder;
     color: cornflowerblue;
+}
+.cores {
+     color: cornflowerblue;
+     display: inline-block;
+     padding-right: 270px;
+}
+.technologies {
+    color: cornflowerblue;
+    display: inline-block;
+}
+.cores ul {
+    list-style: none;
+}
+.technologies ul {
+    list-style: none;
+}
+.edu {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
